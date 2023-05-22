@@ -1,0 +1,144 @@
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+   background-color: lightgray;
+   color:darkgray;
+   bottom: 30px;
+   left: 30px;
+   width: 100%;
+   height: 20px;
+
+   }
+  
+
+.wd-mg{
+    width: 15px;
+   height: 15px;
+   position: relative;
+   top: -18px;
+   left: 5px;
+   background-color: lightgray;
+   color: lightgray;
+   opacity:5 ;
+   
+}
+.wd-div1{
+    width: 95%;
+    float:left;
+}
+
+.wd-set{
+    width: 15px;
+    height: 15px;
+    bottom: 30px;
+   left: 30px;
+}
+
+.wd-div2{
+    Text-align:center;
+    Width:5%;
+    float:left;
+    font-size: x-large;
+}
+
+.wd-float-left-right{
+display: inline;
+width: 100%;
+margin: 1%;
+/* border-style: solid; */
+}
+
+.wd-div3{
+    float: left;
+    border: "1mm";
+    width: 100%;
+    /* border-style: solid; */
+}
+
+.wd-list-div1{
+    display: inline;
+    width: 90%;
+    margin: 6%;
+    border-bottom: blue solid;
+    padding: 0.7%;
+    /* border-style: dashed; */
+}
+
+.wd-list-div2{
+    display: inline;
+    width: 90%;
+    margin: 6%;
+    padding: 0.7%;
+}
+
+.wd-list-div3{
+    display: inline;
+    width: 90%;
+    margin: 6%;
+    padding: 0.7%;
+}
+
+.wd-list-div4{
+    display: inline;
+    width: 90%;
+    margin: 6%;
+    padding: 0.7%;
+}
+
+.wd-list-div5{
+    display: inline;
+    width: 90%;
+    margin: 6%;
+    padding: 0.7%;
+}
+
+.wd-img-class{
+    width: 100%;
+    height: "50px";
+    margin-top: 5%;
+}
+
+.wd-p-tag-1{
+    text-decoration-color: white;
+    color: white;
+    position: relative;
+   position: relative;
+   top: -70px;
+   left: 25px;
+}
+
+.wd-tuits{
+    list-style-type: none;
+    text-align: left;
+    width: 100%;
+    margin: 1%;
+}
+
+
+.wd-tuits-div{
+    width: 100%;
+    height: 120px;
+}
+
+.wd-heading-tuits{
+    color:gray;
+}
+
+.wd-left-inside-tuits{
+    display: inline;
+    float: left;
+    width: 80%;
+}
+.wd-right-inside-tuits{
+    display: inline;
+    width: 20%;
+}
+
+.wd-tuit-text{
+    text-align: left;
+}
+
+.wd-tuits_count{
+    text-align: left;
+    color:gray;
+
+}

@@ -1,0 +1,167 @@
+.wd-border{
+    border: 0.5mm solid lightgray;
+}
+.wd-outer-div{
+    
+    width: 100%;
+    
+.wd-bg-body{
+    background-color: white;
+    color: black
+}
+
+}
+.wd-head{
+    width: 100%;
+    height: 50px;
+    /* border: solid black 1mm; */
+}
+
+.wd-outer-div-arrow{
+    display: inline;
+    float: left;
+    width: 2%;
+    padding-left: 20px;
+}
+
+.wd-outer-div-text{
+    display: inline;
+    width: 50%;
+    float:left;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.wd-outer-div-dots{
+float: right;
+width: 5%;
+color: black solid;
+}
+
+.wd-check-1{
+    margin-left: 2mm;
+    display: inline;
+    width: 100%;
+}
+
+
+
+.wd-img-tuit{
+    margin-left: 5mm;
+    float: left;
+    display: inline;
+   
+}
+
+.wd-imgs{
+    border-radius: 15px;
+}
+
+
+.wd-tuit-1{
+    float:center;
+    display: inline; 
+}
+
+.wd-tuit-text{
+    color:gray;
+    float:center;
+    display: inline;
+}
+
+.wd-tuit-dots{
+    float: right;
+    display: inline;
+    width: 5%;
+color: black solid;
+
+}
+
+
+.wd-text{
+    margin-left: 15mm;
+    width: 600px;
+}
+
+.wd-img-outer{
+    border: lightgray solid 0.5mm;
+    height: 485px;
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 15mm;
+}
+.wd-img_inner{
+    margin-left: 0mm;
+}
+
+.img_check{
+    height: 400px;
+    width: 600px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.wd-below-text{
+    color: gray;
+    text-align: left;
+    height: 5mm;
+    /* border: solid 1mm red; */
+    margin-left: 0mm;
+}
+
+
+.wd-outer-div{
+    display: inline;
+    margin-left: 0mm;
+    border: 0mm;
+}
+
+.wd-below-text-2{
+    color: black;
+    float: left;
+    text-align: left;
+    margin-left: 0mm;
+    /* border: solid 1mm red; */
+}
+
+.wd-below-text-3{
+color: black;
+float: center;
+display: inline;
+/* border: solid 1mm green; */
+}
+
+
+.wd-text-below-4{
+    color: black;
+    float: left;
+    text-align: left;
+    margin-left: 0mm;
+}
+
+
+.wd-like-1{
+    margin-left: 15mm;
+    height: 40px;
+    width: 600px;
+    /* border: solid blue 1mm; */
+}
+
+.wd-like-img{
+    height: 40px;
+    width: 600px;
+    /* border: solid pink 1mm; */
+}
+
+
+.wd-hr-tag{
+    color: lightgray solid 0.5mm;
+    width: 0.5mm;
+}
+
+.hr{
+    height:5px;
+    border-width:0;
+    background-color: lightgray;
+  }
