@@ -56,8 +56,10 @@ margin: 0.9%;
 
 .wd-list-div1{
     display: inline;
+    font-weight: bold;
     width: 90%;
-    margin: 6%;
+    margin: 5%;
+    color: black;
     border-bottom: blue solid;
     padding: 0.7%;
     /* border-style: dashed; */
@@ -65,27 +67,35 @@ margin: 0.9%;
 
 .wd-list-div2{
     display: inline;
+    font-weight: bold;
+    color: gray;
     width: 90%;
-    margin: 6%;
+    margin: 5%;
     padding: 0.7%;
 }
 
 .wd-list-div3{
     display: inline;
+    font-weight: bold;
+    color: gray;
     width: 90%;
-    margin: 6%;
+    margin: 5%;
     padding: 0.7%;
 }
 
 .wd-list-div4{
     display: inline;
+    font-weight: bold;
+    color: gray;
     width: 90%;
-    margin: 6%;
+    margin: 5%;
     padding: 0.7%;
 }
 
 .wd-list-div5{
     display: inline;
+    font-weight: bold;
+    color: gray;
     width: 90%;
     margin: 6%;
     padding: 0.7%;
