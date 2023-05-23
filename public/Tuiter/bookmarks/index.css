@@ -74,7 +74,8 @@ color: black solid;
     float: right;
     display: inline;
     width: 5%;
-color: black solid;
+color: gray solid;
+font-weight: bold;
 
 }
 
