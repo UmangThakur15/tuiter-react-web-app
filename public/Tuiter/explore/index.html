@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explore</title>
+    
+<link href="index.css"rel="stylesheet"/>
+<link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../../vendors/fontawesome/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <!-- First Column -->
+            <div class="col-2 col-lg-1 col-xl-3 col-xxl-2 pt-3">
+                 <!-- To display size -->
+                <div class="d-block d-sm-none fa-2x">XS</div>
+                <div class="d-none d-sm-block d-md-none fa-2x">S</div>
+                <div class="d-none d-md-block d-lg-none fa-2x">M</div>
+                <div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+                <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+                <div class="d-none d-xxl-block fa-2x">XXL</div>
+                <ul class="list-group fs-7">
+                    <li class="list-group-item border-10">
+                        <i class="fa-brands fa-twitter fab fa-tumblr"></i>
+                    </li>
+                    <li class="list-group-item border-10">
+                        <a class="d-flex align-items-center text-decoration-none text-black" href="../home.html">
+                            <!--<i class="fa-solid fa-house col-12 col-xl-2 col-xxl-2 "></i>-->
+                            <i class="fas fa-home"></i>
+                            <div class="col-10 d-none d-xl-block d-xxl-block ps-2">
+                                Home
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-group-item active-list-item border-10" style="background-color:#0d6efd;">
+                        <a class="d-flex align-items-center text-decoration-none"
+                            href="index.html">
+                            <!--<i class="fa-solid fa-hashtag col-12 col-xl-2 col-xxl-2 active-list-item"></i>-->
+                            <i class="fas fa-hashtag" style="color: white;"></i>
+                            <div class="col-10 d-none d-xl-block d-xxl-block active-list-item ps-2" style="color: white;">
+                            Explore
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-10">
+                        <a class="d-flex align-items-center text-decoration-none text-black" href="../notifications.html">
+                            <!--<i class="fa-regular fa-bell col-12 col-xl-2 col-xxl-2"></i>-->
+                            <i class="fas fa-bell"></i>
+                            <div class="col-10 d-none d-xl-block d-xxl-block ps-2">
+                            Notifications
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-10">
+                        <a class="d-flex align-items-center text-decoration-none text-black" href="../messages.html">
+                          <!--  <i class="fa-regular fa-envelope col-12 col-xl-2 col-xxl-2"></i>-->
+                          <i class="fas fa-envelope"></i>
+                            <div class="col-10 d-none d-xl-block d-xxl-block ps-2">
+                            Messages
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-10">
+                        <a class="d-flex align-items-center text-decoration-none text-black" href="../bookmarks/bookmarks-css.html">
+                           <!-- <i class="fa-regular fa-bookmark col-12 col-xl-2 col-xxl-2"></i>-->                                                 
+                            <i class="fas fa-bookmark"></i>
+                            <div class="col-10 d-none d-xl-block d-xxl-block ps-2">
+                            Bookmarks
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-10">
+                        <a class="d-flex align-items-center text-decoration-none text-black" href="../lists.html">
+                            <!--<i class="fa-solid fa-list col-12 col-xl-2 col-xxl-2"></i>-->
+                            <i class="fas fa-list-ul"></i>
+                            <div class="col-10 d-none d-xl-block d-xxl-block ps-2">
+                            Lists
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-10">
+                        <a class="d-flex align-items-center text-decoration-none text-black" href="../profile.html">
+                            <!--<i class="fa-regular fa-user col-12 col-xl-2 col-xxl-2"></i>-->
+                            <i class="fas fa-user"></i>
+                            <div class="col-10 d-none d-xl-block d-xxl-block ps-2">
+                            Profile
+                            </div>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-10">
+                        <a class="d-flex align-items-center text-decoration-none text-black" href="#">
+                           <!-- <i class="fa-solid fa-ellipsis col-12 col-xl-2 col-xxl-2"></i>-->
+                           <i class="fas fa-ellipsis-h"></i>
+                            <div class="col-10 d-none d-xl-block d-xxl-block ps-2">
+                            More
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <button class="btn btn-primary rounded-pill mt-3 fw-bold text-white pt-2 pb-2"
+                        style="width: 100%"
+                        id="tweet-button"
+                        type="button">
+                        Tuit
+                </button>
+            </div>
+            <!-- Second Middle Column -->
+            <div class="col-10 col-lg-7 col-xl-6 col-xxl-6 pt-1 border-start border-end border-2 wd-gray">
+                <!-- Search bar -->
+                <div class="row wd-search pt-1 pb-1 ps-3 pe-3">
+                    <div class="col-11 position-relative d-flex align-items-center">
+                          <span class="wd-gray position-absolute ps-3">
+                            <!--<i class="fa-solid fa-magnifying-glass"></i>-->
+                            <i class="fas fa-search" style="color: black;"></i>
+                          </span>
+                      <input class="wd-input-white me-2 ps-5 form-control rounded-pill wd-search_bar_boot" id="search-input"
+                             placeholder="Search Tuiter"
+                             type="text"/>
+                    </div>
+                    
+            
+                    <div class="col-1 d-flex justify-content-end align-items-center fs-4"
+                         onclick="window.location.href='../explore-setting.html'">
+                      <div>
+                       <!-- <i class="fa-solid fa-gear"></i>-->
+                        <i class="fas fa-cog" style="color: #0d6efd;"></i>
+                      </div>
+                    </div>
+                </div>
+                <!-- Nav Bar -->
+                <div class="row mt-0 ps-0 pe-0">
+                    <ul class="nav nav-tabs d-flex justify-content-between wd-nav-bar">
+                      <li class="nav-item wd-nav-tab wd-selected-tab">
+                        <a class="nav-link active" href="for-you.html">For you</a>
+                      </li>
+                      <li class="nav-item wd-nav-tab">
+                        <a class="nav-link wd-gray" href="trending.html">Trending</a>
+                      </li>
+                      <li class="nav-item wd-nav-tab">
+                        <a class="nav-link wd-gray" href="news.html">News</a>
+                      </li>
+                      <li class="nav-item wd-nav-tab">
+                        <a class="nav-link wd-gray" href="sports.html">Sports</a>
+                      </li>
+                      <li class="nav-item d-none d-md-block wd-nav-tab">
+                        <a class="nav-link wd-gray" href="entertainment.html">Entertainment</a>
+                      </li>
+                    </ul>
+                </div>
+                <!-- Banner -->
+                <div class="row">
+                    <div class="position-relative p-0 pt-2 border-bottom border-dark">
+                      <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg" width="100%">
+                      <h1 class="position-absolute bottom-0 ps-3 text-white">SpaceX's Starship</h1>
+                    </div>
+                </div>
+                <!-- Post -->
+                <div class="row">
+                    <ul class="list-group list-group-flush p-0">
+                      <li class="list-group-item border-bottom border-dark">
+                        <div class="row">
+                          <div class="col-9">
+                            <div class="wd-gray">
+                              Web Development
+                            </div>
+                            <div class="d-flex">
+                              <div class="fw-bold">
+                                React.JS
+                              </div>
+                              <div class="ms-1">
+                                <!--<i class="fa-solid fa-check-circle"></i>-->
+                                <i class="fas fa-check-circle" ms-2></i>
+                              </div>
+                              <div class="wd-gray ms-2">
+                                - 2h
+                              </div>
+                            </div>
+                            <div class="fw-bold">
+                                React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
+                            </div>
+                          </div>
+                          <div class="col-3 d-flex justify-content-end">
+                            <img class="rounded-4" height="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png" width="100px">
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item border-bottom border-dark">
+                        <div class="row">
+                          <div class="col-9">
+                            <div class="d-flex">
+                              <div class="fw-bold">
+                                JavaScript
+                              </div>
+                              <div class="ms-1">
+                                <!--<i class="fa-solid fa-check-circle"></i>-->
+                                <i class="fas fa-check-circle" ms-2></i>
+                              </div>
+                              <div class="wd-gray ms-2">
+                                - 2h
+                              </div>
+                            </div>
+                            <div class="fw-bold">
+                                JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web.
+                            </div>
+                            <div class="wd-gray">
+                              123K Tuiters
+                            </div>
+                          </div>
+                          <div class="col-3 d-flex justify-content-end">
+                            <img class="rounded-4" height="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png?20141107110902" width="100px">
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item border-bottom border-dark">
+                        <div class="row">
+                          <div class="col-9">
+                            <div class="wd-gray">
+                              Web Development
+                            </div>
+                            <div class="fw-bold">
+                              jQuery
+                            </div>
+                            <div class="wd-gray">
+                              123K Tuiters
+                            </div>
+                          </div>
+                          <div class="col-3 d-flex justify-content-end">
+                            <img class="rounded-4" height="100px" src="https://static.javatpoint.com/jquerypages/images/jquery-tutorial.jpg" width="100px">
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item border-bottom border-dark">
+                        <div class="row">
+                          <div class="col-9">
+                            <div class="wd-gray">
+                              Web Development
+                            </div>
+                            <div class="d-flex">
+                              <div class="fw-bold">
+                                Node.JS
+                              </div>
+                              <div class="ms-1">
+                                <!--<i class="fa-solid fa-check-circle"></i>-->
+                                <i class="fas fa-check-circle" ms-2></i>
+                              </div>
+                              <div class="wd-gray ms-2">
+                                - 2h
+                              </div>
+                            </div>
+                            <div class="wd-gray">
+                              123K Tuiters
+                            </div>
+                          </div>
+                          <div class="col-3 d-flex justify-content-end">
+                            <img class="rounded-4" height="100px" src="https://e7.pngegg.com/pngimages/450/470/png-clipart-node-js-angularjs-react-javascript-npm-node-js-angle-text-thumbnail.png" width="100px">
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Third Right Column -->
+            <div class="col-lg-4 col-xl-3 col-xxl-4 pt-3 ps-4 d-none d-lg-block">
+                <ul class="list-group  wd-13">
+                    <li class="list-group-item border-10 fw-bold fs-5">
+                      Who to follow
+                    </li>
+                    <li class="list-group-item border-10">
+                      <div class="d-flex align-items-center">
+                        <div class="col-2">
+                          <img class="rounded-circle" src="https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem.jpg" width="40px" height="40px">
+                        </div>
+                        <div class="col-6">
+                          <div class="d-flex align-items-center">
+                            <div>
+                              Java  
+                            </div>
+                            <i class="fas fa-check-circle" ms-2></i>
+                          </div>
+                          <div>
+                            @Java
+                          </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end">
+                            <button class="btn-primary border-10 rounded-pill ps-3 pe-3 pt-1 pb-1 fw-semibold" type="button">
+                              Follow
+                            </button>
+                          </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item border-10">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-2">
+                          <img class="rounded-circle" src="https://cdn.geekwire.com/wp-content/uploads/2021/06/29_SPACE4_Logo-1.png" width="40px" height="40px">
+                        </div>
+                        <div class="col-6">
+                          <div class="d-flex align-items-center">
+                            <div>
+                              Relativity Space  
+                            </div>
+                            <i class="fas fa-check-circle" ms-2></i>
+                          </div>
+                          <div>
+                            @relativityspace
+                          </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end">
+                            <button class="btn-primary border-10 rounded-pill ps-3 pe-3 pt-1 pb-1 fw-semibold" type="button">
+                              Follow
+                            </button>
+                          </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item border-10">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-2">
+                          <img class="rounded-circle" src="data:image/png;base64,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" width="40px" height="40px">
+                        </div>
+                        <div class="col-6">
+                          <div class="d-flex align-items-center">
+                            <div>
+                              Virgin Galactic  
+                            </div>
+                            <i class="fas fa-check-circle" ms-2></i>
+                          </div>
+                          <div>
+                            @virgingalactic
+                          </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end">
+                            <button class="btn-primary border-10 rounded-pill ps-3 pe-3 pt-1 pb-1 fw-semibold" type="button">
+                              Follow
+                            </button>
+                          </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item border-10">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-2">
+                          <img class="rounded-circle" src="https://www.nasa.gov/sites/default/files/images/174116main_2006_01777_highres.jpg" width="40px" height="40px">
+                        </div>
+                        <div class="col-6">
+                          <div class="d-flex align-items-center">
+                            <div>
+                              NASA  
+                            </div>
+                            <i class="fas fa-check-circle" ms-2></i>
+                          </div>
+                          <div>
+                            @NASA
+                          </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end">
+                            <button class="btn-primary border-10 rounded-pill ps-3 pe-3 pt-1 pb-1 fw-semibold" type="button">
+                              Follow
+                            </button>
+                          </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item border-10">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-2">
+                          <img class="rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Tesla_logo.png/1200px-Tesla_logo.png" width="40px" height="40px">
+                        </div>
+                        <div class="col-6">
+                          <div class="d-flex align-items-center">
+                            <div>
+                              Tesla  
+                            </div>
+                            <i class="fas fa-check-circle" ms-2></i>
+                          </div>
+                          <div>
+                            @Tesla
+                          </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end">
+                          <button class="btn-primary border-10 rounded-pill ps-3 pe-3 pt-1 pb-1 fw-semibold" type="button">
+                            Follow
+                          </button>
+                        </div>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

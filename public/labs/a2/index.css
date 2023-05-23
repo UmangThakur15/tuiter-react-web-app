@@ -202,4 +202,79 @@ p#id-selector-1 {
             width: 20%;
             float: left;
          }
-                  
+           
+         .wd-row{
+            border: lightgray solid 0.5mm;
+         }
+
+         body {
+            font-family: Arial;
+            margin: 10px;
+        }
+        
+        .wd-post-image {
+            height: 100px;
+            width: 100px;
+            border-radius: 20px;
+        }
+        
+        .wd-input {
+            border-radius: 20px;
+            height: 100%;
+            width: 100%;
+            padding-left: 50px;
+            margin-right: 12px;
+            border: 0;
+            font-size: 18px;
+            background-color: rgb(231, 234, 238);
+        }
+        
+        .btn-primary {
+            background-color: black;
+            color: white;
+        }
+        
+        #tweet-button {
+            background-color: #0d6efd;
+        }
+        
+        .active-list-item {
+            /* background-color: white; */
+            color:black;
+        }
+        
+        .wd-nav-bar{
+            font-weight: bold;
+            color: rgb(110, 118, 125);
+        }
+        
+        .wd-nav-tab{
+            /* height: 30px; */
+            padding: 0%;
+            border: 0;
+        }
+        .wd-selected-tab{
+            color: rgb(29, 161, 242);
+            border-bottom: 4px solid rgb(29, 161, 242);
+        }
+        
+        .wd-gray {
+            color: rgb(110, 118, 125);
+        }
+        
+        .who-to-follow {
+            background-color: rgb(231, 234, 238);
+            border-radius: 20px;
+            /* padding: 10px;
+            margin: 10px; */
+        }
+        
+        .btn-primary.override-bs {
+         background-color: #a90dfd;
+         border-color: #fd0d51;
+         border-width: 10px;
+         border-radius: 20px;
+         border-style: dashed;
+         font-size: 2em;
+         font-weight: bolder;
+         }

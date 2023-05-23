@@ -43,7 +43,7 @@
 .wd-float-left-right{
 display: inline;
 width: 100%;
-margin: 1%;
+margin: 0.9%;
 /* border-style: solid; */
 }
 
@@ -102,7 +102,7 @@ margin: 1%;
     color: white;
     position: relative;
    position: relative;
-   top: -70px;
+   top: -85px;
    left: 25px;
 }
 
@@ -142,3 +142,89 @@ margin: 1%;
     color:gray;
 
 }
+
+/* Bootstrap Styling */
+
+/* New Bootstrap */
+
+body {
+    font-family: Arial;
+    margin: 10px;
+  }
+  
+  .wd-post-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+  }
+  
+  .wd-input {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding-left: 50px;
+    margin-right: 12px;
+    border: 0;
+    font-size: 18px;
+    background-color: rgb(231, 234, 238);
+  }
+  
+  .wd-input-white {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding-left: 50px;
+    margin-right: 12px;
+    border: 15;
+    font-size: 18px;
+    background-color:white;
+    border-color: lightgray;
+  }
+  
+  .btn-primary {
+    background-color: black;
+    color: white;
+  }
+  
+  #tweet-button {
+    background-color: #0d6efd;
+  }
+  
+  .active-list-item {
+    /* background-color: white; */
+    color:black;
+  }
+  
+  .wd-nav-bar{
+    font-weight: bold;
+    color: rgb(110, 118, 125);
+  }
+  
+  .wd-nav-tab{
+    /* height: 30px; */
+    padding: 0%;
+    border: 0;
+  }
+  .wd-selected-tab{
+    color: rgb(29, 161, 242);
+    border-bottom: 4px solid rgb(29, 161, 242);
+  }
+  
+  .wd-gray {
+    color: rgb(110, 118, 125);
+  }
+  
+  .wd-white{
+    color: white;
+  }
+  
+  .who-to-follow {
+    background-color: rgb(231, 234, 238);
+    border-radius: 20px;
+    /* padding: 10px;
+    margin: 10px; */
+  }
+  
+  .wd-gray-border{
+  border-color: lightgrey;
+  }
