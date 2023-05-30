@@ -34,8 +34,6 @@ function WorkingWithArrays(){
          <FilterFunction/>
         </>
        );
-
-
 }
 
 export default WorkingWithArrays
