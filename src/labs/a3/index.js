@@ -15,7 +15,6 @@ function Assignment3() {
      <Styles/>
      <Classes/>
      <JavaScript/>
-     
    </div>
  );
 }
