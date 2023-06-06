@@ -4,11 +4,11 @@ import WhatsHappening from "./whats-happening";
 
 const HomeScreen = () => {
  return(
-   <>
-     <h4>Home</h4>
+   <div>
+     <h1>Home</h1>
      <WhatsHappening/>
      <TuitsList/>
-   </>
+   </div>
  );
 };
 export default HomeScreen;

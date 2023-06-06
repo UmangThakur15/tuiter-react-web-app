@@ -24,10 +24,10 @@ return (
    <div>
      <Nav />
      <div className="row">
-       <div className="col-2">
+     <div className="col-2 col-lg-2 col-xl-2 col-xxl-2 col-sm-2">
          <NavigationSidebar />
        </div>
-       <div className="col-7">
+       <div className="text-lg-start col-10 col-lg-7 col-xl-6 col-xxl-6">
         <Routes>
         <Route path="/home" element={<HomeScreen />} />
         <Route path="/explore" element={< ExploreScreen/>} />
@@ -35,7 +35,7 @@ return (
         <Route path="/profile" element={<ProfileScreen />} />
         </Routes>
        </div>
-       <div className="col-3">
+       <div className="col-lg-3 col-xl-3 col-xxl-3 ps-4 d-none d-lg-block">
       {/* <WhoToFollowListItem />
 <WhoToFollowListItem who={{
   userName: "Tesla",

@@ -23,8 +23,8 @@ const TuitItem = (
 ) => {
 
   const dispatch = useDispatch();
- const deleteTuitHandler = (id) => {
-     dispatch(deleteTuit(id));
+const deleteTuitHandler = (id) => {
+  dispatch(deleteTuit(id));
 }
  return(
   <li className="list-group-item">
@@ -33,13 +33,10 @@ const TuitItem = (
        <img width={70} className="float-end rounded-circle" src={`${tuit.image}`}/>
      </div>
      <div className="col-10">
-        
-       <div>{tuit.userName} <i className="bi bi-patch-check-fill lbluecolor"></i> {tuit.handle} . {tuit.time} 
-       <i className="bi bi-x-lg float-end"
+       <div><b>{tuit.userName}</b> <i className="bi bi-patch-check-fill lbluecolor"></i> {tuit.handle} . {tuit.time} <i className="bi bi-x-lg float-end"
             onClick={() => deleteTuitHandler(tuit._id)}></i>
         </div>
-       <div className="fw-bolder">{tuit.topic}</div>
-       <div>{tuit.tuit}</div>
+       <div>{tuit.tuit}</div><br/>
        <div><TuitStates tuit_states={{"liked": tuit.liked,
         "replies": tuit.replies,
         "retuits": tuit.retuits,
