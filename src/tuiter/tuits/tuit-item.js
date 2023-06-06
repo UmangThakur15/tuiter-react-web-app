@@ -2,7 +2,7 @@ import React from "react";
 import '../../vendors/bootstrap-icons/font/bootstrap-icons.min.css';
 import {useDispatch} from "react-redux";
 import './tuit.css';
-import TuitStates from "./tuit-states";
+import TuitStats from "./tuit-stats";
 import {deleteTuit} from "../reducers/tuits-reducer";
 
 
@@ -37,7 +37,7 @@ const deleteTuitHandler = (id) => {
             onClick={() => deleteTuitHandler(tuit._id)}></i>
         </div>
        <div>{tuit.tuit}</div><br/>
-       <div><TuitStates tuit_states={{"liked": tuit.liked,
+       <div><TuitStats tuit_stats={{"liked": tuit.liked,
         "replies": tuit.replies,
         "retuits": tuit.retuits,
         "likes": tuit.likes }} /></div>
