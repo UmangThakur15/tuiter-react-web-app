@@ -20,6 +20,7 @@ return await authService.logout();
 });
 export const updateUserThunk = createAsyncThunk(
 "users/updateUser", async (user) => {
+    console.log("save, rhunk : ", user);
     await authService.updateUser(user);
     return user;
 });
