@@ -16,7 +16,7 @@ const NavigationSidebar = () => {
  return (
    <div className="list-group">
      {!currentUser && <Link className={`list-group-item ps-1 text-capitalize col d-flex ${active === "login" ? "active" : ""}`} to="/tuiter/login"> 
-        <i className={`bi bi-solid col-12 col-xl-2 col-xxl-2 fa-lg border-0 pb-2 list-group-item text-capitalize ${active === "login" ? "active" : ""}`}></i>
+        <i className={`bi bi-key-fill bi-solid col-12 col-xl-2 col-xxl-2 fa-lg border-0 pb-2 list-group-item text-capitalize ${active === "login" ? "active" : ""}`}></i>
           <div className={'d-none d-xl-block d-xxl-block ps-4'}>Login</div>
      </Link>}
      {!currentUser && <Link className={`list-group-item ps-1 text-capitalize col d-flex ${active === "register" ? "active" : ""}`} to="/tuiter/register"> 
