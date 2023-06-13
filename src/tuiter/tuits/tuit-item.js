@@ -2,10 +2,8 @@ import React from "react";
 import '../../vendors/bootstrap-icons/font/bootstrap-icons.min.css';
 import {useDispatch} from "react-redux";
 import './tuit.css';
-import TuitStats from "./tuit-stats";
-// import {deleteTuit} from "../reducers/tuits-reducer";
+import TuitStates from "./tuit-states";
 import {deleteTuitThunk} from "../services/tuits-thunks";
-
 
 
 
@@ -27,7 +25,6 @@ const TuitItem = (
   const dispatch = useDispatch();
 const deleteTuitHandler = (id) => {
   dispatch(deleteTuitThunk(id));
-  // dispatch(deleteTuit(id));
 }
  return(
   <li className="list-group-item">
@@ -36,14 +33,13 @@ const deleteTuitHandler = (id) => {
        <img width={70} className="float-end rounded-circle" src={`${tuit.image}`}/>
      </div>
      <div className="col-10">
+        
        <div><b>{tuit.userName}</b> <i className="bi bi-patch-check-fill lbluecolor"></i> {tuit.handle} . {tuit.time} <i className="bi bi-x-lg float-end"
             onClick={() => deleteTuitHandler(tuit._id)}></i>
         </div>
-       <div>{tuit.tuit}</div><br/>
-       <div><TuitStats tuit_stats={{"liked": tuit.liked,
-        "replies": tuit.replies,
-        "retuits": tuit.retuits,
-        "likes": tuit.likes }} /></div>
+       <div>{tuit.tuit}</div>
+       <br/>
+       <div><TuitStates tuit={tuit} key={tuit._id} /></div>
         
      </div>
      

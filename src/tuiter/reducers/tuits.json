@@ -1,33 +1,30 @@
 [{ "_id": 123, "topic": "Space", "userName": "SpaceX",
    "title": "Tesla CyberTruck lands on Mars and picks up the Curiosity rover on its 6' bed",
-   "time": "2h",   "image": "https://i.pinimg.com/736x/b6/12/2e/b6122e067cad4cde07468d6627544989.jpg",
+   "time": "2h",   "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f879e574800811.5c3c3f914bb66.jpg",
    "liked": true,
    "replies": 123,
    "retuits": 432,
-   "likes": 12345,
+   "likes": 2345,
    "handle": "@spacex",
-   "tuit": "This morning at 12:34 EST Earth time, a convoy of Tesla CyberTrucks drove across the Martian landscape after picking up the Curiosity, Sojourner, Spirit, and Perserance on their 6' beds"
+   "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
   },
- { "_id": 234,"topic": "Energy" ,  "userName": "Tesla",
+ { "_id": 234, "topic": "Space",   "userName": "SpaceX",
    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
-   "time": "2h",   "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png",
-   "liked": true,
-   "replies": 432,
-   "retuits": 654,
-   "likes": 32345,
-   "handle": "@tesla",
-   "tuit": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep"
-  },
- { "_id": 345,"topic": "Space" , "userName": "SpaceX",
-   "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
-   "time": "4d",   "image": "https://i.pinimg.com/736x/b6/12/2e/b6122e067cad4cde07468d6627544989.jpg",
-   "liked": true,
-   "replies": 321,
-   "retuits": 543,
-   "likes": 22345,
+   "time": "2h",   "image": "https://logodix.com/logo/355.jpg", "liked": true,
+   "replies": 322,
+   "retuits": 993,
+   "likes": 3431,
    "handle": "@spacex",
-   "tuit": "You want to wake up in the morning and think the future is going to be great - and that's what being a spacefaring civilization is all about. It's about believing in the future and thinking that the future will be better than the past. And I can't think of anything more exciting than going out there and being among the stars"
- }
- 
-  ]
-
+   "tuit": "The Space Exploration Technologies Corporation, commonly referred to as SpaceX is an American spacecraft manufacturer, launcher, and satellite communications company headquartered in Hawthorne, California."
+ },
+ { "_id": 345, "topic": "Energy",  "userName": "Tesla",
+   "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
+   "time": "4d",   "image": "https://th.bing.com/th/id/R.e488777d759169c74b74aa95f07adbed?rik=VWCMNP%2fO1MdzWQ&riu=http%3a%2f%2fwww.carlogos.org%2flogo%2fTesla-logo-2003-2500x2500.png&ehk=JNBLiptu%2fRFyW%2fKfTZ0WnRm0dTAAOD2QoMqcnnk71e0%3d&risl=&pid=ImgRaw&r=0",
+   "liked": false,
+   "replies": 435,
+   "retuits": 345,
+   "likes": 9874,
+   "handle": "@spacex",
+   "tuit": "Tesla Energy Operations, Inc. is the clean energy division of Tesla, Inc. that develops, manufactures, sells and installs photovoltaic solar energy generation systems, battery energy storage products and other related products and services to residential, commercial and industrial customers."
+  }
+]

@@ -6,7 +6,7 @@ import { useDispatch } from "react-redux";
 
 
 
-const TuitStats = (
+const TuitStates = (
     {
       tuit = {"_id": 123, "topic": "Space", "userName": "SpaceX",
       "title": "Tesla CyberTruck lands on Mars and picks up the Curiosity rover on its 6' bed",
@@ -34,4 +34,4 @@ const TuitStats = (
     </div>
  );
 };
-export default TuitStats;
+export default TuitStates;

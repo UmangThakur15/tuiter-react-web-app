@@ -7,7 +7,7 @@ const TuitSummaryItem = (
      "time": "2h",
      "title": `Tesla CyberTruck lands on Mars and
                picks up the Curiosity rover on its 6' bed`,
-     "image": "https://i.pinimg.com/736x/b6/12/2e/b6122e067cad4cde07468d6627544989.jpg"
+     "image": "tesla.png"
    }
  }
 ) => {

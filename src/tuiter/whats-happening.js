@@ -14,15 +14,13 @@ const WhatsHappening = () => {
  let [whatsHappening, setWhatsHappening] = useState('');
  const dispatch = useDispatch();
  const tuitClickHandler = () => {
-  const newTuit = {
-    tuit: whatsHappening
-  }
-  dispatch(createTuitThunk(newTuit));
-  setWhatsHappening("");
-
+    const newTuit = {
+        tuit: whatsHappening
+      }
+      dispatch(createTuitThunk(newTuit));
+      setWhatsHappening("");
    console.log(whatsHappening);
  }
- 
  return (
    <div className="row">
      <div className="col-auto">
@@ -39,14 +37,11 @@ const WhatsHappening = () => {
            Tuit
          </button>
          <div className="text-primary fs-2">
-           <AiOutlinePicture className="me-3"/>
-           <HiOutlineGif className="me-3"/>
-           <MdFormatListBulleted className="me-3"/>
-           <BsEmojiSmile className="me-3"/>
-           {/* <TbCalendarStats className="me-3"/> */}
-           <HiOutlineLocationMarker className="me-3"/>
-           {/* <BiBold className="me-3"/> */}
-           {/* <BiItalic className="me-3"/> */}
+           <AiOutlinePicture className="me-3"></AiOutlinePicture>
+           <MdFormatListBulleted className="me-3"></MdFormatListBulleted>
+           <HiOutlineLocationMarker className="me-3"></HiOutlineLocationMarker>
+           <BiBold className="me-3"></BiBold>
+           <BiItalic className="me-3"></BiItalic>
          </div>
        </div>
      </div>
@@ -55,4 +50,3 @@ const WhatsHappening = () => {
  );
 }
 export default WhatsHappening;
-

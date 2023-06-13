@@ -1,46 +1,26 @@
 .wd-tabs li {
-
     display: inline;
-
-}
-
+ }
  
-.wd-tabs {
+ .wd-tabs {
     padding-left: 0px;
-}
-
+ }
  
-
-.wd-selected {
-
+ .wd-selected {
     border-bottom: 2px blue solid;
-
     padding-bottom: 20px;
-
-}
-
+ }
  
-
-.wd-nudge-up {
-
+ .wd-nudge-up {
     bottom: 3px;
-
     left: 25px;
-
-}
-
+ }
  
-
-.wd-bottom-2 {
-
+ .wd-bottom-2 {
     bottom: 2px;
-
-}
-
+ }
  
-
-.wd-top-4 {
-
+ .wd-top-4 {
     top: 4px;
-
-}
+ }
+ 
