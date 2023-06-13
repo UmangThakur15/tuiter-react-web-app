@@ -48,9 +48,8 @@ console.log("profile" , profile)
           };
           setProfile(newProfile);
          }}/>
-       </div>
-       <br/>
-       </div>
+       </div></div>
+       
      )}
      <button
       onClick={() => {
