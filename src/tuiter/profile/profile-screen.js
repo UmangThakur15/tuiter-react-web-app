@@ -36,7 +36,7 @@ console.log("profile" , profile)
            ...profile, firstName: event.target.value,
           };
           setProfile(newProfile);
-         }}/>
+         }} style={{marginLeft: 10}}/>
        </div>
        <br/>
        <div>
@@ -47,7 +47,7 @@ console.log("profile" , profile)
            ...profile, lastName: event.target.value,
           };
           setProfile(newProfile);
-         }}/>
+         }} style={{marginLeft: 10}}/>
        </div>
        <br/>
        </div>
