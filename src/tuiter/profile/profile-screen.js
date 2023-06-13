@@ -29,7 +29,7 @@ console.log("profile" , profile)
      <h1>Profile Screen</h1>
      {profile && (<div>
        <div>
-        <label>First Name</label><></>
+        <label>First Name</label>
         <input type="text" value={profile.firstName}
          onChange={(event) => {
           const newProfile = {
@@ -40,7 +40,7 @@ console.log("profile" , profile)
        </div>
        <br/>
        <div>
-        <label>Last Name</label><></>
+        <label>Last Name</label>
         <input type="text" value={profile.lastName}
          onChange={(event) => {
           const newProfile = {
