@@ -52,6 +52,7 @@ console.log("profile" , profile)
        <br/>
        </div>
      )}
+     <br/>
      <button
       onClick={() => {
         dispatch(logoutThunk());
