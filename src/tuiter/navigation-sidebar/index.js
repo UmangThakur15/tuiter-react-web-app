@@ -15,9 +15,12 @@ const NavigationSidebar = () => {
   console.log("user : ", currentUser)
  return (
    <div className="list-group">
-     {!currentUser && <Link className={`list-group-item ${active === "login" ? "active" : ""}`} to="/tuiter/login">   Login   </Link>}
+     {!currentUser && <Link className={`list-group-item ps-1 text-capitalize col d-flex ${active === "login" ? "active" : ""}`} to="/tuiter/login"> 
+        <i className={`bi bi-solid col-12 col-xl-2 col-xxl-2 fa-lg border-0 pb-2 list-group-item text-capitalize ${active === "login" ? "active" : ""}`}></i>
+          <div className={'d-none d-xl-block d-xxl-block ps-4'}>Login</div>
+     </Link>}
      {!currentUser && <Link className={`list-group-item ps-1 text-capitalize col d-flex ${active === "register" ? "active" : ""}`} to="/tuiter/register"> 
-        <i className={`fa fa-user pe-2 pt-2 fa-solid col-12 col-xl-2 col-xxl-2 fa-solid fa-lg border-0 pb-2 list-group-item text-capitalize ${active === "register" ? "active" : ""}`}></i>
+        <i className={`bi bi-person-plus-fill bi-solid col-12 col-xl-2 col-xxl-2 fa-lg border-0 pb-2 list-group-item text-capitalize ${active === "register" ? "active" : ""}`}></i>
           <div className={'d-none d-xl-block d-xxl-block ps-4'}>Register</div>
      </Link>
      }
