@@ -40,7 +40,7 @@ console.log("profile" , profile)
        </div>
        <br/>
        <div>
-        <label>Last Name</label>&nbsp &nbsp
+        <label>Last Name</label>
         <input type="text" value={profile.lastName}
          onChange={(event) => {
           const newProfile = {
