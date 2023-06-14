@@ -28,7 +28,7 @@ console.log("profile" , profile)
     <div>
      <h1>Profile Screen</h1>
      {profile && (<div>
-       <div cellspacing="5px">
+       <div>
         <label>First Name</label>
         <input type="text" value={profile.firstName}
          onChange={(event) => {
