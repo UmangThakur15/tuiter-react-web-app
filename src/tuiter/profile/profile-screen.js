@@ -25,7 +25,7 @@ useEffect(  () => {
 }, []);
 console.log("profile" , profile)
  return (
-    <div>
+    <div class="text-lg-start col-10 col-lg-7 col-xl-6 col-xxl-6">
      <h1>Profile Screen</h1>
      {profile && (<div>
        <div>
