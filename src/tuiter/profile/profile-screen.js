@@ -29,7 +29,7 @@ console.log("profile" , profile)
      <h1>Profile Screen</h1>
      {profile && (<div>
        <div>
-        <label>First Name</label>
+        <label style="margin-right: 10px; margin-bottom: 10px;">First Name</label>
         <input type="text" value={profile.firstName}
          onChange={(event) => {
           const newProfile = {
@@ -39,7 +39,7 @@ console.log("profile" , profile)
          }}/>
        </div>
        <div>
-        <label>Last Name</label>
+        <label style="margin-right: 10px; margin-bottom: 10px;">Last Name</label>
         <input type="text" value={profile.lastName}
          onChange={(event) => {
           const newProfile = {
@@ -50,12 +50,12 @@ console.log("profile" , profile)
        </div>
        </div>
      )}
-     <button
+     <button style="margin-right: 10px; margin-top: 10px;"
       onClick={() => {
         dispatch(logoutThunk());
         navigate("/tuiter/login");
       }}>                   Logout</button>
-     <button onClick={save}>Save  </button>
+     <button style="margin-left: 10px; margin-top: 10px;" onClick={save}>Save  </button>
     </div> );
 }
 export default ProfileScreen;
