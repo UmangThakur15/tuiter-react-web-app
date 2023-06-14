@@ -38,7 +38,6 @@ console.log("profile" , profile)
           setProfile(newProfile);
          }}/>
        </div>
-       <br/>
        <div>
         <label>Last Name</label>
         <input type="text" value={profile.lastName}
@@ -50,7 +49,6 @@ console.log("profile" , profile)
          }}/>
        </div></div>
      )}
-     <br/>
      <button
       onClick={() => {
         dispatch(logoutThunk());
