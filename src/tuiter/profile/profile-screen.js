@@ -50,12 +50,12 @@ console.log("profile" , profile)
        </div>
        </div>
      )}
-     <button style="margin-right: 10px; margin-top: 10px;"
+     <button 
       onClick={() => {
         dispatch(logoutThunk());
         navigate("/tuiter/login");
       }}>                   Logout</button>
-     <button style="margin-left: 10px; margin-top: 10px;" onClick={save}>Save  </button>
+     <button  onClick={save}>Save  </button>
     </div> );
 }
 export default ProfileScreen;
