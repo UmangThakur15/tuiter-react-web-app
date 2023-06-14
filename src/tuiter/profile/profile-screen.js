@@ -48,9 +48,9 @@ console.log("profile" , profile)
           };
           setProfile(newProfile);
          }}/>
-       </div></div>
+       </div><br/></div>
+       
      )}
-     <br/>
      <button
       onClick={() => {
         dispatch(logoutThunk());
