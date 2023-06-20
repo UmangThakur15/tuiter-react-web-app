@@ -26,7 +26,7 @@ export const logout = async () => {
     return response.data;
    };
    export const updateUser = async (user) => {
-    console.log("id", `${USERS_URL}/update/${user._id}`, user);
+    console.log("id", `${USERS_URL}/update`, user);
     const response = await api.put(`${USERS_URL}`, {user});
     return response.data;
    };
